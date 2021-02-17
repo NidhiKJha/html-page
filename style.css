@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @media (max-width: 480px){
     body{
         background: #E5E5E5;
         margin: 0;
+        font-family: 'Roboto', sans-serif;
     }
     h2{
         font-size: 20px;
@@ -32,6 +34,7 @@
         justify-content: center;
         align-items: center;
         height: 60px;
+        box-shadow: 0 2px 4px #ddd;
     }
 
     .header-image{
@@ -41,6 +44,7 @@
     .section-body-transit{
         margin-top: 20px;
         background: #ffffff;
+        box-shadow: 0 2px 4px #ddd;
     }
     .section-body-transit-content{
         padding-top: 30px;
@@ -49,6 +53,7 @@
     }
     .grey-heading{
         color: #C4C4C4;
+        margin-bottom: 10px !important;
     }
     .black-heading{
         color: #000000;
@@ -56,6 +61,15 @@
     .a-heading{
         margin-top: 10px;
         margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .a-heading p{
+        padding-left: 5px;
+        color: #3E57D1 !important;
+        font-size: 13px;
+
     }
     .day-text{
         font-size: 35px;
@@ -78,6 +92,18 @@
         color: #3E57D1 !important;
         font-size: 13px;
         padding-bottom: 30px;
+        align-items: center;
+    }
+    .shipping-status p{
+        color: #3E57D1 !important;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    .shipping-status p span{
+        color: #3E57D1 !important;
+        font-size: 12px;
+        padding-left: 2px;
+
     }
     .button-set{
         display: flex;
@@ -100,6 +126,10 @@
         color: #ffffff;
         background: #3E57D1;
     }
+    .button-set button.take-action {
+        color: #ffffff;
+        background: #3E57D1;
+    }
     .reschedule-tab{
         margin-top: 15px;
         padding: 14px 20px;
@@ -108,10 +138,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        box-shadow: 0 2px 4px #ddd;
     }
     .reschedule-tab-image-left{
         display: flex;
         justify-content: center;
+        font-size: 14px;
     }
     .reschedule-image-left{
         margin-right: 10px;
@@ -158,11 +190,17 @@
         flex-direction: column;
         width: 48%;
     }
+    .you-may-also-like-image img{
+        border-radius: 4px;
+    }
     .order-details-content-left{
         width: 25%;
     }
+    .order-details-content-left img{
+        border-radius: 4px;
+    }
     .order-details-content-right{
-        width: 68%;
+        width: 74%;
     }
 
     .you-may-also-like-image h4{
@@ -177,5 +215,18 @@
         color: #000000;
         font-weight: 300;
     }
-
+    .product-title {
+        margin-top: 15px !important;
+        font-weight: 700 !important;
+    }
+    .image-share {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .image-share p{
+        color: #3E57D1 !important;
+        font-size: 12px;
+        padding-left: 5px;
+    }
 }
