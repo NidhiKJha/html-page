@@ -31,6 +31,7 @@ p {
 }
 h5 {
   margin: 10px 0;
+  font-weight: 500;
 }
 .section-header {
   background: #ffffff;
@@ -209,17 +210,17 @@ h5 {
   margin: 5px 0;
   font-size: 12px;
   color: #000000;
-  font-weight: 300;
+  font-weight: 400;
 }
 .order-details-content-right h4 {
   margin: 5px 0;
   font-size: 12px;
   color: #000000;
-  font-weight: 300;
+  font-weight: 400;
 }
 .product-title {
   margin-top: 15px !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 .image-share {
   display: flex;
